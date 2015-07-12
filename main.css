@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot') format('embedded-opentype'),
+       url('fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+       url('fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('fonts/glyphicons-halflings-regular.svg') format('svg');
+}
+body{background-color: #F0F0F0;cursor: auto;font-family: 'Ubuntu', sans-serif;}
+a:hover{color:#4b4b4b;}
+a{text-decoration: none;}
+.row{margin-right: 0;}
+.side{
+    background-color: #fff;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+}
+.side img {
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.side li{
+    color: gray;
+    margin-top: 15px;
+}
+.side a {
+    text-decoration: none;
+}
+.h{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px
+}
+.date{font-size: 15px;}
+.day{margin-bottom: 0px;}
+.centent{
+    margin-bottom: 30px;
+    height: 100%;
+    background-color: #fff;
+}
+.menu{
+    margin-top: 60px;
+}
+.networks{
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
